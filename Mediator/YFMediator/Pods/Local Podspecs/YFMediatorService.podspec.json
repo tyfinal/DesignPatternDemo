@@ -1,0 +1,32 @@
+{
+  "name": "YFMediatorService",
+  "version": "0.1.0",
+  "summary": "A short description of YFMediatorService.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tyfinal/YFMediatorService",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tyfinal": "tyfinal@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/tyfinal/YFMediatorService.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resources": "YFMediatorService/Classes/*.bundle",
+  "subspecs": [
+    {
+      "name": "Sevice",
+      "source_files": "YFMediatorService/Classes/Sevice/*.swift"
+    },
+    {
+      "name": "Protocol",
+      "source_files": "YFMediatorService/Classes/Protocol/*.swift"
+    }
+  ]
+}

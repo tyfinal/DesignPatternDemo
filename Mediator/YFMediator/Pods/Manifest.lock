@@ -1,0 +1,49 @@
+PODS:
+  - SnapKit (5.7.1)
+  - YFMediatorService (0.1.0):
+    - YFMediatorService/Protocol (= 0.1.0)
+    - YFMediatorService/Sevice (= 0.1.0)
+  - YFMediatorService/Protocol (0.1.0)
+  - YFMediatorService/Sevice (0.1.0)
+  - YFReceiveModule (0.1.0):
+    - SnapKit
+    - YFMediatorService (~> 0.1.0)
+    - YFReceiveModule/feature (= 0.1.0)
+  - YFReceiveModule/feature (0.1.0):
+    - SnapKit
+    - YFMediatorService (~> 0.1.0)
+  - YFSendModule (0.1.0):
+    - SnapKit
+    - YFMediatorService (~> 0.1.0)
+    - YFSendModule/feature (= 0.1.0)
+  - YFSendModule/feature (0.1.0):
+    - SnapKit
+    - YFMediatorService (~> 0.1.0)
+
+DEPENDENCIES:
+  - SnapKit
+  - YFMediatorService (from `../YFMediatorService`)
+  - YFReceiveModule (from `../YFReceiveModule`)
+  - YFSendModule (from `../YFSendModule`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  YFMediatorService:
+    :path: "../YFMediatorService"
+  YFReceiveModule:
+    :path: "../YFReceiveModule"
+  YFSendModule:
+    :path: "../YFSendModule"
+
+SPEC CHECKSUMS:
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  YFMediatorService: 17db8a8441d2f603bf009058431963d44c3d1c39
+  YFReceiveModule: aac05ea7b60c144fc8002badf528cd6547ecce69
+  YFSendModule: 18b2b814c32f7d180e2a0eed96a91b461514aa99
+
+PODFILE CHECKSUM: 135abc50c6313830b83691d12e48aa41f5e2b38b
+
+COCOAPODS: 1.15.2

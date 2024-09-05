@@ -1,0 +1,6 @@
+framework module YFMediatorService {
+  umbrella header "YFMediatorService-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_YFMediator {
+  umbrella header "Pods-YFMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}

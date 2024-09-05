@@ -1,0 +1,6 @@
+framework module YFSendModule {
+  umbrella header "YFSendModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

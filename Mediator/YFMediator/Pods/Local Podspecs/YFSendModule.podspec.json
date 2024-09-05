@@ -1,0 +1,35 @@
+{
+  "name": "YFSendModule",
+  "version": "0.1.0",
+  "summary": "A short description of YFSendModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tyfinal/YFSendModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tyfinal": "tyfinal@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/tyfinal/YFSendModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "dependencies": {
+    "YFMediatorService": [
+      "~> 0.1.0"
+    ],
+    "SnapKit": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "feature",
+      "source_files": "YFSendModule/Classes/feature/*.swift"
+    }
+  ]
+}

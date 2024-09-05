@@ -1,0 +1,6 @@
+framework module YFReceiveModule {
+  umbrella header "YFReceiveModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
